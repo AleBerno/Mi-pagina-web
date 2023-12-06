@@ -11,15 +11,7 @@
             color: blue; /* Cambia el color del texto a azul */
             font-family: 'Times New Roman', serif; /* Cambia el tipo de letra del texto a Times New Roman */
             background-color: purple; /* Cambia el fondo a morado */
-        }
-
-        h1, h2, h3, p, ul, li, form, a {
-            color: blue; /* Cambia el color del texto a azul para títulos, párrafos, listas, formularios y enlaces */
-            text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
-        }
-
-        a:hover {
-            text-decoration: underline; /* Agrega subrayado al pasar el ratón sobre el enlace */
+            font-size: 16px; /* Aumenta el tamaño de la letra a 16px */
         }
 
         h1, h2, h3 {
@@ -28,18 +20,32 @@
             display: inline-block; /* Hace que el recuadro se ajuste al contenido */
         }
 
+        h1 {
+            text-align: center; /* Centra el primer título */
+        }
+
         footer {
             text-align: center; /* Centra el texto en el pie de página */
             margin-top: 20px; /* Añade espacio superior al pie de página */
+        }
+
+        img {
+            max-width: 100%; /* Ajusta la imagen para que no desborde su contenedor */
+            height: auto; /* Mantiene la proporción original de la imagen */
+            display: block; /* Elimina espacio adicional alrededor de la imagen */
+            margin: 20px auto; /* Centra la imagen y agrega espacio alrededor */
         }
     </style>
 </head>
 <body>
 
+    <img src="url_de_tu_imagen.jpg" alt="Alessandro Berno Condori">
+
     <h1>Alessandro del Piero Jhon Berno Condori</h1>
     <p>Bienvenido a mi página personal. Soy Alessandro del Piero Jhon Berno Condori, 
       Soy un estudiante de pregrado de la Universidad Catolica San Pablo.</p>
 
+    <!-- Resto del contenido... -->
     <h2>Educación</h2>
     <ul>
         <li>Universidad Catolica San Pablo - Pregrado - 2023-Actualmente</li>
@@ -109,6 +115,7 @@
     <!-- 11. Sección de Resumen -->
     <h2>Resumen</h2>
     <p>Soy Alessandro Berno Condori, un estudiante de pregrado de la carrera de Ciencia de la Computacion apasionado por la Inteligencia Artificial. Con 1 año de experiencia en Programación. Mi objetivo es ser un gran Profesional en esta carrera, lograr tener mi Doctorado e hacer investigaciones acerca de la IA.</p>
+
 
     <!-- Pie de página -->
     <footer>
